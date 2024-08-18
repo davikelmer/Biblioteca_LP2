@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Estante {
-    private static List<Livro> estante = new ArrayList<>();
+    public static List<Livro> estante = new ArrayList<>();
 
     public Estante(List<Livro> estante) {
         Estante.estante = estante;
