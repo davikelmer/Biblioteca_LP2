@@ -1,0 +1,15 @@
+9788595084773, Senhor dos Anéis: O Retorno do Rei, J. R. R. Tolkien, 1955, Fantasia, 1
+9780061120084, 1984, George Orwell, 1949, Distopia, 3
+9780345339683, O Hobbit, J. R. R. Tolkien, 1937, Fantasia, 1
+9780553382563, Guerra e Paz, Liev Tolstói, 1869, Clássico, 1
+9788501057151, Dom Casmurro, Machado de Assis, 1899, Romance, 2
+9788535902771, Cem Anos de Solidão, Gabriel García Márquez, 1967, Realismo, 2
+9780060850524, O Apanhador no Campo de Centeio, J. D. Salinger, 1951, Ficção, 1
+9788501048371, Vidas Secas, Graciliano Ramos, 1938, Romance, 2
+9781476746586, A Menina que Roubava Livros, Markus Zusak, 2005, Ficção, 1
+9788571647890, Ensaio Sobre a Cegueira, José Saramago, 1995, Distopia, 1
+9788580410660, A Cabana, William P. Young, 2007, Religioso, 1
+9780062315007, O Sol é Para Todos, Harper Lee, 1960, Ficção, 1
+9780525555377, Educated, Tara Westover, 2018, Autobiografia, 1
+9780140283334, Orgulho e Preconceito, Jane Austen, 1813, Romance, 2
+
