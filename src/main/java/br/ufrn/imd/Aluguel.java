@@ -32,7 +32,7 @@ public class Aluguel {
 
     public boolean devolverLivro(Livro livro) {
         if (livrosAlugados.containsKey(livro) && livrosAlugados.get(livro)) {
-            livrosAlugados.put(livro, false); // Marca o livro como não alugado
+            livrosAlugados.put(livro, false);
             System.out.println("Livro devolvido: " + livro);
             return true;
         } else {
