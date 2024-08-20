@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a8a3a13d-8966-4720-8e64-6ee9ec067b4e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Biblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/banco_de_dados_livros.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banco_de_dados_livros.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +54,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/welld/projetos/Biblioteca_LP2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -76,8 +74,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-51586f01" />
       </set>
     </attachedChunks>
   </component>
@@ -91,6 +88,8 @@
       <updated>1723779000632</updated>
       <workItem from="1723779001644" duration="830000" />
       <workItem from="1724011090771" duration="3178000" />
+      <workItem from="1724088511802" duration="2032000" />
+      <workItem from="1724171094802" duration="1619000" />
     </task>
     <servers />
   </component>
