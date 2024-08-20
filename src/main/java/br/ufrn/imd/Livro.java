@@ -77,13 +77,13 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "Livro{" +
-                ", ISBN=" + Arrays.toString(ISBN) +
-                ", Titulo='" + titulo + '\'' +
-                ", Autor='" + autor + '\'' +
-                ", Ano de Publicação=" + anoPublicacao +
-                ", Gênero=" + genero +
-                ", Quantidade=" + quantidade +
+        return "{" +
+                " " + new String(ISBN) +
+                ", " + titulo +
+                ", " + autor +
+                ", " + anoPublicacao +
+                ", " + genero +
+                ", " + quantidade +
                 '}';
     }
 }
