@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.stream.Collectors;
+
 import br.ufrn.imd.Pessoas.Cliente;
 
 public class Biblioteca {
@@ -51,7 +53,28 @@ public class Biblioteca {
         });
     }
 
-    public void buscarClienteNome(){
+    public void buscarClienteNome(String nome){
+        ArrayList<Cliente> clienteNome = new ArrayList<>();
+        clienteNome.addAll(clientes.stream().filter(e -> e.getNome().equalsIgnoreCase(nome)).collect(Collectors.toList()));
+        clienteNome.forEach(e -> {
+            System.out.println();
+            System.out.println("--Dados do cliente buscado--");
+            System.out.println("Nome: " + e.getNome());
+            System.out.println("CPF: " + e.getCpf());
+            System.out.println("Data de nascimento:" + e.getDataNascimento());
+        });
+    }
+
+    public void buscarClienteCPF(String cpf){
+        ArrayList<Cliente> clienteNome = new ArrayList<>();
+        clienteNome.addAll(clientes.stream().filter(e -> e.getCpf().equalsIgnoreCase(cpf)).collect(Collectors.toList()));
+        clienteNome.forEach(e -> {
+            System.out.println();
+            System.out.println("--Dados do cliente buscado--");
+            System.out.println("Nome: " + e.getNome());
+            System.out.println("CPF: " + e.getCpf());
+            System.out.println("Data de nascimento:" + e.getDataNascimento());
+        });
     }
 
     public void alterarCliente(){
