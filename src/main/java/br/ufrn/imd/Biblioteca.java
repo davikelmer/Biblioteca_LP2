@@ -39,14 +39,22 @@ public class Biblioteca {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        clientes.forEach(e -> System.out.println(e.getNome()));
     }
 
-    public void buscarClienteNome(){ //vai receber uma Nome ou CPF
-
+    public void listarClientes() {
+        clientes.forEach(e -> {
+            System.out.println();
+            System.out.println("--Dados do cliente--");
+            System.out.println("Nome: " + e.getNome());
+            System.out.println("CPF: " + e.getCpf());
+            System.out.println("Data de nascimento:" + e.getDataNascimento());
+        });
     }
 
-    public void alterarCliente(Cliente cliente) { //Vai receber um CPF
+    public void buscarClienteNome(){
+    }
+
+    public void alterarCliente(){
 
     }
 }

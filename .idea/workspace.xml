@@ -4,105 +4,108 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9ec607d-9d81-4dbd-8154-86eb86dea993" name="Changes" comment="">
+    <list default="true" id="a8a3a13d-8966-4720-8e64-6ee9ec067b4e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-<<<<<<< HEAD
-=======
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Estante.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Estante.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/EstanteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/EstanteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Livro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Biblioteca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Main.java" afterDir="false" />
->>>>>>> 0b8acc69e70d7215c4d2c14b13198825977d8f41
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Pedro-2201&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/davikelmer/Biblioteca_LP2.git&quot;,
+    &quot;accountId&quot;: &quot;c4993d28-cb88-4bdb-83a1-068f2942eb1c&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
-}]]></component>
-  <component name="ProjectId" id="2kvLYt1tWcjzpvyQPXzs4p76bnj" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2kiv1odNLYu1h81GYczg6h6GfxW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-<<<<<<< HEAD
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/welld/projetos/Biblioteca_LP2&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-=======
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
->>>>>>> 0b8acc69e70d7215c4d2c14b13198825977d8f41
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.ufrn.imd.Main" />
-      <module name="Biblioteca_LP2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.ufrn.imd.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Main" />
-      </list>
-    </recent_temporary>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\davik\OneDrive\Documentos\GitHub\Biblioteca_LP2\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.ufrn.imd.Pessoa" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-<<<<<<< HEAD
-        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-51586f01" />
-=======
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
->>>>>>> 0b8acc69e70d7215c4d2c14b13198825977d8f41
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b9ec607d-9d81-4dbd-8154-86eb86dea993" name="Changes" comment="" />
-      <created>1724084166320</created>
+      <changelist id="a8a3a13d-8966-4720-8e64-6ee9ec067b4e" name="Changes" comment="" />
+      <created>1723779000632</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-<<<<<<< HEAD
       <updated>1723779000632</updated>
       <workItem from="1723779001644" duration="830000" />
       <workItem from="1724011090771" duration="3178000" />
-      <workItem from="1724088511802" duration="2032000" />
-      <workItem from="1724171094802" duration="1619000" />
-=======
-      <updated>1724084166320</updated>
->>>>>>> 0b8acc69e70d7215c4d2c14b13198825977d8f41
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
