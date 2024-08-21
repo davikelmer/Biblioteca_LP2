@@ -56,6 +56,11 @@ public class Biblioteca {
     public void buscarClienteNome(String nome){
         ArrayList<Cliente> clienteNome = new ArrayList<>();
         clienteNome.addAll(clientes.stream().filter(e -> e.getNome().equalsIgnoreCase(nome)).collect(Collectors.toList()));
+        if(clienteNome.isEmpty()){
+            System.out.println();
+            System.out.println("Cliente não encontrado");
+            return;
+        }
         clienteNome.forEach(e -> {
             System.out.println();
             System.out.println("--Dados do cliente buscado--");
@@ -68,6 +73,11 @@ public class Biblioteca {
     public void buscarClienteCPF(String cpf){
         ArrayList<Cliente> clienteNome = new ArrayList<>();
         clienteNome.addAll(clientes.stream().filter(e -> e.getCpf().equalsIgnoreCase(cpf)).collect(Collectors.toList()));
+        if(clienteNome.isEmpty()){
+            System.out.println();
+            System.out.println("Cliente não encontrado");
+            return;
+        }
         clienteNome.forEach(e -> {
             System.out.println();
             System.out.println("--Dados do cliente buscado--");
