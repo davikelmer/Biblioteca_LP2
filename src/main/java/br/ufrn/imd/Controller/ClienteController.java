@@ -1,8 +1,6 @@
-package br.ufrn.imd;
+package br.ufrn.imd.Controller;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -10,12 +8,11 @@ import java.util.stream.Collectors;
 
 import br.ufrn.imd.Pessoas.Cliente;
 
-public class Biblioteca {
-    //Estante.carregarEstante("src/main/resources/banco_de_dados_livros.txt");
+public class ClienteController {
     ArrayList<Cliente> clientes = new ArrayList<>();
 
 
-
+    //Métodos de Gerenciamento de Clientes
     void carregarClientes() {
         try (BufferedReader leitor = new BufferedReader(new FileReader("src/main/resources/banco_de_dados_clientes.txt"))) {
             String linha;
@@ -90,4 +87,5 @@ public class Biblioteca {
     public void alterarCliente(){
 
     }
+
 }

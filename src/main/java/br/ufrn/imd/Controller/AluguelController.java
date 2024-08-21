@@ -1,22 +1,24 @@
-package br.ufrn.imd;
+package br.ufrn.imd.Controller;
+
+import br.ufrn.imd.Livro;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Aluguel {
+import static br.ufrn.imd.Controller.LivroController.estante;
 
-    private final List<Livro> catalogo;
+public class AluguelController {
+
     private final Map<Livro, Boolean> livrosAlugados;
 
-    public Aluguel(){
-        this.catalogo = new ArrayList<>();
+    public AluguelController(){
         this.livrosAlugados = new HashMap<>();
     }
 
     public void adicionarLivro(Livro livro) {
-        catalogo.add(livro);
+        estante.add(livro);
         livrosAlugados.put(livro, false);
     }
     public boolean alugarLivro(Livro livro) {
@@ -49,12 +51,5 @@ public class Aluguel {
             }
         }
         return alugados;
-    }
-
-    public void listarCatalogo() {
-        System.out.println("Catálogo de Livros:");
-        for (Livro livro : catalogo) {
-            System.out.println(livro);
-        }
     }
 }

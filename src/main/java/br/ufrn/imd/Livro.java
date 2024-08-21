@@ -3,19 +3,15 @@ package br.ufrn.imd;
 import java.util.Arrays;
 
 public class Livro {
-    private char[] ISBN = new char[13];
+    private String ISBN;
     private String titulo;
     private String autor;
     private int anoPublicacao;
     private String genero;
     private int quantidade;
 
-    public Livro(char[] ISBN, String titulo, String autor, int anoPublicacao, String genero, int quantidade) {
-        if (ISBN.length == 13) {
-            this.ISBN = ISBN;
-        } else {
-            throw new IllegalArgumentException("ISBN deve ter 13 caracteres.");
-        }
+    public Livro(String ISBN, String titulo, String autor, int anoPublicacao, String genero, int quantidade) {
+        this.ISBN = ISBN;
         this.titulo = titulo;
         this.autor = autor;
         this.anoPublicacao = anoPublicacao;
@@ -23,16 +19,13 @@ public class Livro {
         this.quantidade = quantidade;
     }
 
-    public char[] getISBN() {
+
+    public String getISBN() {
         return ISBN;
     }
 
-    public void setISBN(char[] ISBN) {
-        if (ISBN.length == 13) {
-            this.ISBN = ISBN;
-        } else {
-            throw new IllegalArgumentException("ISBN deve ter 13 caracteres.");
-        }
+    public void setISBN(String ISBN) {
+        this.ISBN = ISBN;
     }
 
     public String getTitulo() {
@@ -77,13 +70,12 @@ public class Livro {
 
     @Override
     public String toString() {
-        return "{" +
-                " " + new String(ISBN) +
+        return
+                new String(ISBN) +
                 ", " + titulo +
                 ", " + autor +
                 ", " + anoPublicacao +
                 ", " + genero +
-                ", " + quantidade +
-                '}';
+                ", " + quantidade;
     }
 }

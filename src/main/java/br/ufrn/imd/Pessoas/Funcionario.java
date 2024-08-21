@@ -1,6 +1,6 @@
 package br.ufrn.imd.Pessoas;
 
-import br.ufrn.imd.Biblioteca;
+import br.ufrn.imd.Controller.ClienteController;
 
 import java.time.LocalDate;
 
@@ -9,7 +9,7 @@ public class Funcionario extends Pessoa{
     private String cargo;
     private LocalDate dataAdmissao;
     private double salario;
-    public Biblioteca biblioteca = new Biblioteca();
+    public ClienteController clienteController = new ClienteController();
 
     public Funcionario() {
 
