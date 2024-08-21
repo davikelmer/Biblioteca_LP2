@@ -9,6 +9,11 @@ public class Funcionario extends Pessoa{
     private String cargo;
     private LocalDate dataAdmissao;
     private double salario;
+    public Biblioteca biblioteca = new Biblioteca();
+
+    public Funcionario() {
+
+    }
 
     public Funcionario(String nome, String cpf, LocalDate dataNascimento, double salario,
                        LocalDate dataAdmissao, String cargo, int matricula) {

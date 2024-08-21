@@ -7,6 +7,10 @@ public abstract class Pessoa {
     private String cpf;
     private LocalDate dataNascimento;
 
+    public Pessoa(){
+
+    }
+
     public Pessoa(String nome, String cpf, LocalDate dataNascimento) {
         this.nome = nome;
         this.cpf = cpf;

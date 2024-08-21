@@ -8,7 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Biblioteca.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/banco_de_dados_livros.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/banco_de_dados_livros.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Pessoas/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Pessoas/Funcionario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Pessoas/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/ufrn/imd/Pessoas/Pessoa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -91,6 +93,7 @@
       <updated>1723779000632</updated>
       <workItem from="1723779001644" duration="830000" />
       <workItem from="1724011090771" duration="3178000" />
+      <workItem from="1724142678144" duration="6281000" />
     </task>
     <servers />
   </component>

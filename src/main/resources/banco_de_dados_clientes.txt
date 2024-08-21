@@ -1,0 +1,22 @@
+Nome, CPF, Data de Nascimento, Telefone, Email, Rua, Número da Casa, Bairro, Cidade, Estado, CEP
+Ana Souza, 123.456.789-00, 1985-06-15, (11) 98765-4321, ana.souza@email.com, Avenida Paulista, 100, Bela Vista, São Paulo, SP, 01310-000
+Carlos Oliveira, 234.567.890-12, 1990-03-22, (21) 91234-5678, carlos.oliveira@email.com, Rua das Laranjeiras, 55, Laranjeiras, Rio de Janeiro, RJ, 22240-000
+Maria Santos, 345.678.901-23, 1978-11-30, (31) 99876-5432, maria.santos@email.com, Rua dos Andradas, 200, Centro, Belo Horizonte, MG, 30180-001
+João Silva, 456.789.012-34, 1983-07-19, (41) 97654-3210, joao.silva@email.com, Rua XV de Novembro, 33, Centro, Curitiba, PR, 80060-000
+Fernanda Costa, 567.890.123-45, 1992-02-14, (51) 94567-8901, fernanda.costa@email.com, Rua dos Imortais, 88, Moinhos de Vento, Porto Alegre, RS, 90010-000
+Pedro Almeida, 678.901.234-56, 1980-12-01, (85) 92345-6789, pedro.almeida@email.com, Rua do Comércio, 77, Aldeota, Fortaleza, CE, 60120-000
+Juliana Pereira, 789.012.345-67, 1989-09-25, (11) 93456-7890, juliana.pereira@email.com, Rua da Consolação, 1000, Consolação, São Paulo, SP, 01301-000
+Roberto Lima, 890.123.456-78, 1995-04-18, (21) 92345-6789, roberto.lima@email.com, Rua do Flamengo, 42, Flamengo, Rio de Janeiro, RJ, 22210-000
+Larissa Martins, 901.234.567-89, 1987-05-30, (31) 95432-1098, larissa.martins@email.com, Rua São Francisco, 210, Funcionários, Belo Horizonte, MG, 30140-000
+Gustavo Rocha, 012.345.678-90, 1993-08-22, (41) 96543-2109, gustavo.rocha@email.com, Rua Paraná, 66, Batel, Curitiba, PR, 80230-000
+Camila Ferreira, 123.456.789-01, 1984-07-05, (51) 96789-1234, camila.ferreira@email.com, Rua da República, 15, Centro Histórico, Porto Alegre, RS, 90010-002
+André Santos, 234.567.890-12, 1991-06-18, (85) 93456-7890, andre.santos@email.com, Rua do Lago, 24, Meireles, Fortaleza, CE, 60150-000
+Tatiane Silva, 345.678.901-23, 1982-01-10, (11) 91234-5678, tatiane.silva@email.com, Rua dos Três Irmãos, 92, Itaim Bibi, São Paulo, SP, 04530-000
+Lucas Lima, 456.789.012-34, 1994-03-15, (21) 93456-1234, lucas.lima@email.com, Rua da Candelária, 37, Centro, Rio de Janeiro, RJ, 20040-000
+Natália Costa, 567.890.123-45, 1986-09-05, (31) 92876-5432, natalia.costa@email.com, Rua das Flores, 88, Santo Antônio, Belo Horizonte, MG, 30210-000
+Ricardo Almeida, 678.901.234-56, 1988-11-30, (41) 99876-5432, ricardo.almeida@email.com, Rua Marechal Floriano, 44, Centro, Curitiba, PR, 80010-000
+Beatriz Martins, 789.012.345-67, 1990-02-12, (51) 91234-5678, beatriz.martins@email.com, Rua do Lajeado, 99, Bela Vista, Porto Alegre, RS, 90020-000
+Eduardo Pereira, 890.123.456-78, 1983-05-25, (85) 93456-7890, eduardo.pereira@email.com, Rua dos Coqueiros, 10, Aldeota, Fortaleza, CE, 60130-000
+Aline Costa, 901.234.567-89, 1992-12-22, (11) 93456-7890, aline.costa@email.com, Rua da Paz, 120, Jardim Paulista, São Paulo, SP, 01415-000
+Daniel Rocha, 012.345.678-90, 1994-10-11, (21) 94567-1234, daniel.rocha@email.com, Rua da Glória, 55, Glória, Rio de Janeiro, RJ, 20241-000
+Larissa Almeida, 123.456.789-01, 1987-03-03, (31) 93765-4321, larissa.almeida@email.com, Rua das Oliveiras, 34, Santa Efigênia, Belo Horizonte, MG, 30120-000
