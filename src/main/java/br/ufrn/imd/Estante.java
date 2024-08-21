@@ -10,15 +10,23 @@ import java.util.List;
 public class Estante {
     public static List<Livro> estante = new ArrayList<>();
 
-    public Estante(List<Livro> estante) {
-        Estante.estante = estante;
-    }
 
     public static void carregarEstante(String caminhoArquivo) {
         try (BufferedReader br = new BufferedReader(new FileReader(caminhoArquivo))) {
             String linha;
+            int numerolinha = 0;
             while ((linha = br.readLine()) != null) {
+                numerolinha ++;
                 String[] dados = linha.split(", ");
+
+                if (linha.trim().isEmpty()) {
+                    break;
+                }
+                if (dados.length < 6) {
+                    System.out.println("Linha " + numerolinha + " malformada no arquivo");
+                    continue; // Pula para a próxima linha
+                }
+
                 String isbn = dados[0];
                 String titulo = dados[1];
                 String autor = dados[2];
